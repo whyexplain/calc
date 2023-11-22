@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    background-color: orange;
+}
+.calc2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;justify-content: center;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;justify-content: flex-start;
+    margin-top: 100px;
+    background-color: #3d4167;
+    height: 500px;
+    width: 380px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 8px black;
+}
+
+.row0, .row1, .row2, .row3, .row4 {
+    background-color: #3d4167;
+    padding: 1px;
+}
+
+.visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 130px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    box-shadow: -2px -2px 1px black;
+}
+.contain {
+    margin-top: 5px;
+    background-color: white;
+    width: 270px;
+    height: 55px;
+}
+
+.answerB {
+    margin-top: 5px;
+    background-color: white;
+    width: 270px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.bro:hover{
+    opacity: 0.7;
+}
+
+.bro:active {
+    opacity: 0.3;
+}
+
+.bro {
+    align-items: center;
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black; 
+    color:black;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 15px;
+    width: 70px;
+    height: 50px;
+    transition: 0.3s;
+    
+}
+
+#white {
+    background-color: rgb(60, 60, 80);
+    color: white;
+}
+
+#black {
+    background-color: gray;
+    color: white;
+}
+
+.displayNumbers, .displayAnswer {
+    background-color: white;
+    font-family: 'lora';
+    font-size: 20px;
+    font-weight: 500;
+}
