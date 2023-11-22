@@ -1,4 +1,4 @@
-
+/*HEHEHA*/
 document.addEventListener("keydown", (event) => {
     if(event.key == "0") {if (answer > 0){
         clearDE()
