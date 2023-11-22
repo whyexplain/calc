@@ -1,6 +1,59 @@
-document.addEventListener('keydown', (event) => {})
 
-
+document.addEventListener("keydown", (event) => {
+    if(event.key == "0") {if (answer > 0){
+        clearDE()
+    }
+    else {input(0)}}
+    if(event.key == "1") {if (answer > 0){
+        clearDE()
+    }
+    else {input(1)}}
+    if(event.key == "2") {if (answer > 0){
+        clearDE()
+    }
+    else {input(2)}}
+    if(event.key == "3") {if (answer > 0){
+        clearDE()
+    }
+    else {input(3)}}
+    if(event.key == "4") {if (answer > 0){
+        clearDE()
+    }
+    else {input(4)}}
+    if(event.key == "5") {if (answer > 0){
+        clearDE()
+    }
+    else {input(5)}}
+    if(event.key == "6") {if (answer > 0){
+        clearDE()
+    }
+    else {input(6)}}
+    if(event.key == "7") {if (answer > 0){
+        clearDE()
+    }
+    else {input(7)}}
+    if(event.key == "8") {if (answer > 0){
+        clearDE()
+    }
+    else {input(8)}}
+    if(event.key == "9") {if (answer > 0){
+        clearDE()
+    }
+    else {input(9)}}
+    if(event.key == "/") {input("/")}
+    if(event.key == "Enter") {operate2()}
+    if(event.key == "Backspace") { arrayDN.pop()
+        displayNumbers.textContent = arrayDN.join('')}
+    if(event.key == "a") { input(answer2)}
+    if(event.key == "+") {input("+")}
+    if(event.key == "*") {input("*")}
+    if(event.key == "-") {input("-")}
+    if(event.key == ".") {input(".")}
+    if(event.key == "(") {input("(")}
+    if(event.key == ")") {input(")")}
+    if(event.key == "c") {clearD()}
+    if(event.key == "O") {window.open('','_self').close()}
+})
 
 
 
