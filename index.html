@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+
+    <input type="text" id="keyboard-input">
+
+
+    <div class="calc2">
+    <div class="calc">
+        <div class="visual">
+            <div class="contain" id="contain"></div>
+            <div class="answerB" id="answerB"></div>
+        </div>
+        <div class="row0">
+            <button class="bro" id="white" onclick="
+                clearD()
+            ">Clear</button>
+            <button class="bro" id="white" onclick="
+                operate2()
+            ">Equals</button>
+            <button class="bro" id="white" onclick="
+            arrayDN.pop()
+            displayNumbers.textContent = arrayDN.join('')
+            ">Delete</button>
+            <button class="bro" id="white" onclick="
+            input(answer2)
+            ">ANS</button>
+        </div>
+        <div class="row1">
+            <button class="bro" onclick="
+                if (answer > 0){
+                    clearDE()
+                }
+                else {input(7)}
+            ">7</button>
+            <button class="bro"onclick="
+             if (answer > 0){
+                clearDE()}
+                else{input(8)}
+            ">8</button>
+            <button class="bro" onclick="
+                 if (answer > 0){
+                clearDE()}
+                else{input(9)}
+                ">9</button>
+            <button class="bro" id="black" onclick="
+                input('/')
+     
+            ">/</button>
+        </div>
+        <div class="row2">
+            <button class="bro" onclick="
+                  if (answer > 0){
+                clearDE()}
+                else{input(4)}
+            ">4</button>
+            <button class="bro" onclick="
+                  if (answer > 0){
+                clearDE()}
+                else{input(5)}
+            ">5</button>
+            <button class="bro" onclick="
+                  if (answer > 0){
+                clearDE()}
+                else{input(6)}
+            ">6</button>
+            <button class="bro" id="black"onclick="
+                input('*')
+         
+            ">X</button>
+        </div>
+        <div class="row3">
+            <button class="bro" onclick="
+              if (answer > 0){
+                clearDE()}
+                else{input(1)}
+            ">1</button>
+            <button class="bro" onclick="
+                if (answer > 0){
+                clearDE()}
+                else{input(2)}
+            ">2</button>
+            <button class="bro" onclick="
+                if (answer > 0){
+                clearDE()}
+                else{input(3)}
+            ">3</button>
+            <button class="bro" id="black"onclick="
+                input('-')
+       
+            ">-</button>
+        </div>
+        <div class="row4">
+            <button class="bro" onclick=
+            "window.open('','_self').close()"
+            >OFF</button>
+            <button class="bro" onclick="
+                if (answer > 0){
+                clearDE()}
+                else{input(0)}
+            ">0</button>   
+            <button class="bro" onclick="
+            input('.')
+            ">.</button>
+            <button class="bro" id="black"onclick="
+            input('+')
+            ">+</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
